@@ -38,9 +38,9 @@
     <property role="3GnVgD" value="400" />
     <property role="3GnVgF" value="400" />
     <node concept="3GmlVu" id="4t5AFmF8SBL" role="3GmVTX">
-      <property role="3GmlSW" value="1" />
-      <property role="3GmlSY" value="1" />
-      <property role="3GmP$T" value="1" />
+      <property role="3GmlSW" value="10" />
+      <property role="3GmlSY" value="10" />
+      <property role="3GmP$T" value="12" />
       <node concept="3Gnsne" id="4t5AFmF8SBM" role="3GmnmO">
         <ref role="3Gnsnb" to="g7no:4t5AFmF7ENF" resolve="RED" />
       </node>
