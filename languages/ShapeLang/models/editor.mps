@@ -37,6 +37,9 @@
         <property id="1186403713874" name="color" index="Vb096" />
         <child id="1186403803051" name="query" index="VblUZ" />
       </concept>
+      <concept id="1186403751766" name="jetbrains.mps.lang.editor.structure.FontStyleStyleClassItem" flags="ln" index="Vb9p2">
+        <property id="1186403771423" name="style" index="Vbekb" />
+      </concept>
       <concept id="1186404549998" name="jetbrains.mps.lang.editor.structure.ForegroundColorStyleClassItem" flags="ln" index="VechU" />
       <concept id="1186404574412" name="jetbrains.mps.lang.editor.structure.BackgroundColorStyleClassItem" flags="ln" index="Veino" />
       <concept id="1186414536763" name="jetbrains.mps.lang.editor.structure.BooleanStyleSheetItem" flags="ln" index="VOi$J">
@@ -159,12 +162,14 @@
       </node>
       <node concept="3F0A7n" id="4t5AFmF7yhg" role="3EZMnx">
         <ref role="1NtTu8" to="8k4:4t5AFmF6yUs" resolve="width" />
+        <ref role="1k5W1q" node="4t5AFmFbOu7" resolve="IntegerStyle" />
       </node>
       <node concept="3F0ifn" id="4t5AFmF7yhs" role="3EZMnx">
         <property role="3F0ifm" value="," />
       </node>
       <node concept="3F0A7n" id="4t5AFmF7yhM" role="3EZMnx">
         <ref role="1NtTu8" to="8k4:4t5AFmF6yUu" resolve="height" />
+        <ref role="1k5W1q" node="4t5AFmFbOu7" resolve="IntegerStyle" />
       </node>
       <node concept="3F0ifn" id="4t5AFmF7yi2" role="3EZMnx">
         <property role="3F0ifm" value=")" />
@@ -232,6 +237,7 @@
       </node>
       <node concept="3F0A7n" id="4t5AFmF7Gev" role="3EZMnx">
         <ref role="1NtTu8" to="8k4:4t5AFmF7Gec" resolve="radius" />
+        <ref role="1k5W1q" node="4t5AFmFbOu7" resolve="IntegerStyle" />
       </node>
       <node concept="PMmxH" id="4t5AFmF8K5K" role="3EZMnx">
         <ref role="PMmxG" node="4t5AFmF8HXO" resolve="OneColor" />
@@ -248,12 +254,14 @@
       </node>
       <node concept="3F0A7n" id="4t5AFmF7B1Y" role="3EZMnx">
         <ref role="1NtTu8" to="8k4:4t5AFmF7ci9" resolve="x" />
+        <ref role="1k5W1q" node="4t5AFmFbOu7" resolve="IntegerStyle" />
       </node>
       <node concept="3F0ifn" id="4t5AFmF7B26" role="3EZMnx">
         <property role="3F0ifm" value="," />
       </node>
       <node concept="3F0A7n" id="4t5AFmF7B2m" role="3EZMnx">
         <ref role="1NtTu8" to="8k4:4t5AFmF7cib" resolve="y" />
+        <ref role="1k5W1q" node="4t5AFmFbOu7" resolve="IntegerStyle" />
       </node>
       <node concept="3F0ifn" id="4t5AFmF7B2y" role="3EZMnx">
         <property role="3F0ifm" value=")" />
@@ -449,12 +457,14 @@
       </node>
       <node concept="3F0A7n" id="4t5AFmFbeBJ" role="3EZMnx">
         <ref role="1NtTu8" to="8k4:4t5AFmFbeqt" resolve="width" />
+        <ref role="1k5W1q" node="4t5AFmFbOu7" resolve="IntegerStyle" />
       </node>
       <node concept="3F0ifn" id="4t5AFmFbeC8" role="3EZMnx">
         <property role="3F0ifm" value="," />
       </node>
       <node concept="3F0A7n" id="4t5AFmFbeCx" role="3EZMnx">
         <ref role="1NtTu8" to="8k4:4t5AFmFbeqv" resolve="height" />
+        <ref role="1k5W1q" node="4t5AFmFbOu7" resolve="IntegerStyle" />
       </node>
       <node concept="3F0ifn" id="4t5AFmFbeCN" role="3EZMnx">
         <property role="3F0ifm" value=")" />
@@ -489,7 +499,18 @@
       <node concept="VechU" id="4t5AFmFbFGC" role="3F10Kt">
         <property role="Vb096" value="darkGray" />
         <node concept="1iSF2X" id="4t5AFmFbFGJ" role="VblUZ">
-          <property role="1iTho6" value="F49810" />
+          <property role="1iTho6" value="000080" />
+        </node>
+      </node>
+      <node concept="Vb9p2" id="4t5AFmFbPWb" role="3F10Kt">
+        <property role="Vbekb" value="BOLD" />
+      </node>
+    </node>
+    <node concept="14StLt" id="4t5AFmFbOu7" role="V601i">
+      <property role="TrG5h" value="IntegerStyle" />
+      <node concept="VechU" id="4t5AFmFbOuf" role="3F10Kt">
+        <node concept="1iSF2X" id="4t5AFmFbOui" role="VblUZ">
+          <property role="1iTho6" value="0000FF" />
         </node>
       </node>
     </node>
