@@ -31,5 +31,8 @@
   <node concept="3Gnsnf" id="4t5AFmF85YH">
     <property role="TrG5h" value="CYAN" />
   </node>
+  <node concept="3Gnsnf" id="4t5AFmFaeVD">
+    <property role="TrG5h" value="PINK" />
+  </node>
 </model>
 

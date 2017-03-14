@@ -3,9 +3,10 @@
   <persistence version="9" />
   <languages>
     <use id="46d12fec-5f5f-4bef-ad93-c91d3c95d63e" name="ShapeLang" version="-1" />
+    <use id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage" version="4" />
   </languages>
   <imports>
-    <import index="g7no" ref="r:17e79124-2fa1-4437-8437-1e7bdf04c0ac(ShapeLang.colors)" implicit="true" />
+    <import index="g7no" ref="r:17e79124-2fa1-4437-8437-1e7bdf04c0ac(ShapeLang.colors)" />
   </imports>
   <registry>
     <language id="46d12fec-5f5f-4bef-ad93-c91d3c95d63e" name="ShapeLang">
@@ -36,12 +37,28 @@
     <property role="TrG5h" value="DeepDark" />
     <property role="3GnVgD" value="400" />
     <property role="3GnVgF" value="400" />
-    <node concept="3GmlVu" id="4t5AFmF7FVa" role="3GmVTX">
+    <node concept="3GmlVu" id="4t5AFmF8SBL" role="3GmVTX">
       <property role="3GmlSW" value="1" />
       <property role="3GmlSY" value="1" />
       <property role="3GmP$T" value="1" />
-      <node concept="3Gnsne" id="4t5AFmF7FVd" role="3GmnmO">
+      <node concept="3Gnsne" id="4t5AFmF8SBM" role="3GmnmO">
         <ref role="3Gnsnb" to="g7no:4t5AFmF7ENF" resolve="RED" />
+      </node>
+    </node>
+    <node concept="3GmlVu" id="4t5AFmFaeUe" role="3GmVTX">
+      <property role="3GmlSW" value="23" />
+      <property role="3GmlSY" value="24" />
+      <property role="3GmP$T" value="23" />
+      <node concept="3Gnsne" id="4t5AFmFagTA" role="3GmnmO">
+        <ref role="3Gnsnb" to="g7no:4t5AFmF85TP" resolve="BLUE" />
+      </node>
+    </node>
+    <node concept="3GmlVu" id="4t5AFmFamX5" role="3GmVTX">
+      <property role="3GmlSW" value="5" />
+      <property role="3GmlSY" value="5" />
+      <property role="3GmP$T" value="12" />
+      <node concept="3Gnsne" id="4t5AFmFamXd" role="3GmnmO">
+        <ref role="3Gnsnb" to="g7no:4t5AFmFaeVD" resolve="PINK" />
       </node>
     </node>
   </node>
