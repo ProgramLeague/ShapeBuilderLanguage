@@ -16,6 +16,7 @@
       <concept id="5135681055136178039" name="ShapeLang.structure.Canvas" flags="ng" index="3Gnsn2">
         <property id="5135681055136296604" name="width" index="3GnVgD" />
         <property id="5135681055136296606" name="height" index="3GnVgF" />
+        <property id="5135681055137661020" name="resizable" index="3GqDFD" />
         <child id="5135681055136556232" name="objs" index="3GmVTX" />
       </concept>
       <concept id="5135681055136178041" name="ShapeLang.structure.Shape" flags="ng" index="3Gnsnc">
@@ -49,6 +50,7 @@
     <property role="3GnVgF" value="499" />
     <property role="3GmlSW" value="100" />
     <property role="3GmlSY" value="100" />
+    <property role="3GqDFD" value="true" />
     <node concept="3GmlVu" id="4t5AFmFddMZ" role="3GmVTX">
       <property role="3GmlSV" value="true" />
       <property role="3GmlSW" value="1" />
@@ -83,6 +85,14 @@
       <property role="3GtMBY" value="This is the deep dark fantasy" />
       <node concept="3Gnsne" id="4t5AFmFddgi" role="3GmnmO">
         <ref role="3Gnsnb" to="g7no:4t5AFmF7ENF" resolve="RED" />
+      </node>
+    </node>
+    <node concept="3GtMBZ" id="4t5AFmFdQej" role="3GmVTX">
+      <property role="3GmlSW" value="200" />
+      <property role="3GmlSY" value="200" />
+      <property role="3GtMBY" value="My name is Van" />
+      <node concept="3Gnsne" id="4t5AFmFdQez" role="3GmnmO">
+        <ref role="3Gnsnb" to="g7no:4t5AFmFaeVD" resolve="PINK" />
       </node>
     </node>
     <node concept="3Gnsne" id="4t5AFmFdeuM" role="3GmnmO" />
