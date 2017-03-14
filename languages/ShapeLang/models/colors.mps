@@ -19,5 +19,17 @@
   <node concept="3Gnsnf" id="4t5AFmF7ENF">
     <property role="TrG5h" value="RED" />
   </node>
+  <node concept="3Gnsnf" id="4t5AFmF85TP">
+    <property role="TrG5h" value="BLUE" />
+  </node>
+  <node concept="3Gnsnf" id="4t5AFmF85Vt">
+    <property role="TrG5h" value="YELLOW" />
+  </node>
+  <node concept="3Gnsnf" id="4t5AFmF85X5">
+    <property role="TrG5h" value="GREEN" />
+  </node>
+  <node concept="3Gnsnf" id="4t5AFmF85YH">
+    <property role="TrG5h" value="CYAN" />
+  </node>
 </model>
 
