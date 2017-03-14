@@ -72,6 +72,11 @@
       <property role="TrG5h" value="height" />
       <ref role="AX2Wp" to="tpck:fKAQMTA" resolve="integer" />
     </node>
+    <node concept="1TJgyi" id="4t5AFmFbK1s" role="1TKVEl">
+      <property role="IQ2nx" value="5135681055137661020" />
+      <property role="TrG5h" value="resizable" />
+      <ref role="AX2Wp" to="tpck:fKAQMTB" resolve="boolean" />
+    </node>
     <node concept="1TJgyj" id="4t5AFmF7yj8" role="1TKVEi">
       <property role="IQ2ns" value="5135681055136556232" />
       <property role="20lmBu" value="aggregation" />
@@ -148,12 +153,29 @@
     <property role="EcuMT" value="5135681055136466027" />
     <property role="3GE5qa" value="shape" />
     <property role="TrG5h" value="Circle" />
-    <property role="34LRSv" value="Circle" />
+    <property role="34LRSv" value="circle" />
     <property role="R4oN_" value="a circle" />
     <ref role="1TJDcQ" node="4t5AFmF65XT" resolve="Shape" />
     <node concept="1TJgyi" id="4t5AFmF7Gec" role="1TKVEl">
       <property role="IQ2nx" value="5135681055136596876" />
       <property role="TrG5h" value="radius" />
+      <ref role="AX2Wp" to="tpck:fKAQMTA" resolve="integer" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="4t5AFmFbepA">
+    <property role="EcuMT" value="5135681055137523302" />
+    <property role="3GE5qa" value="shape" />
+    <property role="TrG5h" value="Rectangle" />
+    <property role="34LRSv" value="rect" />
+    <ref role="1TJDcQ" node="4t5AFmF65XT" resolve="Shape" />
+    <node concept="1TJgyi" id="4t5AFmFbeqt" role="1TKVEl">
+      <property role="IQ2nx" value="5135681055137523357" />
+      <property role="TrG5h" value="width" />
+      <ref role="AX2Wp" to="tpck:fKAQMTA" resolve="integer" />
+    </node>
+    <node concept="1TJgyi" id="4t5AFmFbeqv" role="1TKVEl">
+      <property role="IQ2nx" value="5135681055137523359" />
+      <property role="TrG5h" value="height" />
       <ref role="AX2Wp" to="tpck:fKAQMTA" resolve="integer" />
     </node>
   </node>

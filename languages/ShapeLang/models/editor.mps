@@ -19,6 +19,7 @@
         <child id="1140524464360" name="cellLayout" index="2czzBx" />
       </concept>
       <concept id="1237303669825" name="jetbrains.mps.lang.editor.structure.CellLayout_Indent" flags="nn" index="l2Vlx" />
+      <concept id="1237307900041" name="jetbrains.mps.lang.editor.structure.IndentLayoutIndentStyleClassItem" flags="ln" index="lj46D" />
       <concept id="1237375020029" name="jetbrains.mps.lang.editor.structure.IndentLayoutNewLineChildrenStyleClassItem" flags="ln" index="pj6Ft" />
       <concept id="1142886811589" name="jetbrains.mps.lang.editor.structure.ConceptFunctionParameter_node" flags="nn" index="pncrf" />
       <concept id="1237385578942" name="jetbrains.mps.lang.editor.structure.IndentLayoutOnNewLineStyleClassItem" flags="ln" index="pVoyu" />
@@ -29,15 +30,30 @@
       <concept id="1078939183254" name="jetbrains.mps.lang.editor.structure.CellModel_Component" flags="sg" stub="3162947552742194261" index="PMmxH">
         <reference id="1078939183255" name="editorComponent" index="PMmxG" />
       </concept>
+      <concept id="1186402211651" name="jetbrains.mps.lang.editor.structure.StyleSheet" flags="ng" index="V5hpn">
+        <child id="1186402402630" name="styleClass" index="V601i" />
+      </concept>
       <concept id="1186403694788" name="jetbrains.mps.lang.editor.structure.ColorStyleClassItem" flags="ln" index="VaVBg">
+        <property id="1186403713874" name="color" index="Vb096" />
         <child id="1186403803051" name="query" index="VblUZ" />
       </concept>
+      <concept id="1186404549998" name="jetbrains.mps.lang.editor.structure.ForegroundColorStyleClassItem" flags="ln" index="VechU" />
       <concept id="1186404574412" name="jetbrains.mps.lang.editor.structure.BackgroundColorStyleClassItem" flags="ln" index="Veino" />
       <concept id="1186414536763" name="jetbrains.mps.lang.editor.structure.BooleanStyleSheetItem" flags="ln" index="VOi$J">
         <property id="1186414551515" name="flag" index="VOm3f" />
       </concept>
+      <concept id="3383245079137382180" name="jetbrains.mps.lang.editor.structure.StyleClass" flags="ig" index="14StLt" />
       <concept id="1088013125922" name="jetbrains.mps.lang.editor.structure.CellModel_RefCell" flags="sg" stub="730538219795941030" index="1iCGBv">
         <child id="1088186146602" name="editorComponent" index="1sWHZn" />
+      </concept>
+      <concept id="1225456267680" name="jetbrains.mps.lang.editor.structure.RGBColor" flags="ng" index="1iSF2X">
+        <property id="1225456424731" name="value" index="1iTho6" />
+      </concept>
+      <concept id="1381004262292414836" name="jetbrains.mps.lang.editor.structure.ICellStyle" flags="ng" index="1k5N5V">
+        <reference id="1381004262292426837" name="parentStyleClass" index="1k5W1q" />
+      </concept>
+      <concept id="1236262245656" name="jetbrains.mps.lang.editor.structure.MatchingLabelStyleClassItem" flags="ln" index="3mYdg7">
+        <property id="1238091709220" name="labelName" index="1413C4" />
       </concept>
       <concept id="1088185857835" name="jetbrains.mps.lang.editor.structure.InlineEditorComponent" flags="ig" index="1sVBvm" />
       <concept id="1139848536355" name="jetbrains.mps.lang.editor.structure.CellModel_WithRole" flags="ng" index="1$h60E">
@@ -131,6 +147,9 @@
     <node concept="3EZMnI" id="4t5AFmF7ygt" role="2wV5jI">
       <node concept="3F0ifn" id="4t5AFmF7yg$" role="3EZMnx">
         <property role="3F0ifm" value="Canvas:" />
+        <node concept="3mYdg7" id="4t5AFmFbH91" role="3F10Kt">
+          <property role="1413C4" value="canvas" />
+        </node>
       </node>
       <node concept="3F0A7n" id="4t5AFmF7ygE" role="3EZMnx">
         <ref role="1NtTu8" to="tpck:h0TrG11" resolve="name" />
@@ -150,6 +169,28 @@
       <node concept="3F0ifn" id="4t5AFmF7yi2" role="3EZMnx">
         <property role="3F0ifm" value=")" />
       </node>
+      <node concept="3F0ifn" id="4t5AFmFbJYm" role="3EZMnx">
+        <property role="3F0ifm" value="resizable: " />
+        <node concept="pVoyu" id="4t5AFmFbJZi" role="3F10Kt">
+          <property role="VOm3f" value="true" />
+        </node>
+        <node concept="lj46D" id="4t5AFmFbJZl" role="3F10Kt">
+          <property role="VOm3f" value="true" />
+        </node>
+      </node>
+      <node concept="3F0A7n" id="4t5AFmFbK2w" role="3EZMnx">
+        <ref role="1NtTu8" to="8k4:4t5AFmFbK1s" resolve="resizable" />
+        <ref role="1k5W1q" node="4t5AFmFbK3$" resolve="BooleanStyle" />
+      </node>
+      <node concept="3F0ifn" id="4t5AFmFbK08" role="3EZMnx">
+        <property role="3F0ifm" value="draw:" />
+        <node concept="pVoyu" id="4t5AFmFbK0x" role="3F10Kt">
+          <property role="VOm3f" value="true" />
+        </node>
+        <node concept="lj46D" id="4t5AFmFbK0$" role="3F10Kt">
+          <property role="VOm3f" value="true" />
+        </node>
+      </node>
       <node concept="3F2HdR" id="4t5AFmF7yja" role="3EZMnx">
         <ref role="1NtTu8" to="8k4:4t5AFmF7yj8" resolve="objs" />
         <node concept="l2Vlx" id="4t5AFmF7yjc" role="2czzBx" />
@@ -161,6 +202,15 @@
         </node>
         <node concept="pVoyu" id="4t5AFmF8iph" role="3F10Kt">
           <property role="VOm3f" value="true" />
+        </node>
+        <node concept="lj46D" id="4t5AFmFbIxq" role="3F10Kt">
+          <property role="VOm3f" value="true" />
+        </node>
+      </node>
+      <node concept="3F0ifn" id="4t5AFmFbH6e" role="3EZMnx">
+        <property role="3F0ifm" value="end" />
+        <node concept="3mYdg7" id="4t5AFmFbH7i" role="3F10Kt">
+          <property role="1413C4" value="canvas" />
         </node>
       </node>
       <node concept="l2Vlx" id="4t5AFmF7ygw" role="2iSdaV" />
@@ -175,7 +225,7 @@
         <property role="3F0ifm" value="Circle:" />
       </node>
       <node concept="PMmxH" id="4t5AFmF7BXf" role="3EZMnx">
-        <ref role="PMmxG" node="4t5AFmF7B1k" resolve="AbstractObj" />
+        <ref role="PMmxG" node="4t5AFmFbBT$" resolve="Shape_Comp" />
       </node>
       <node concept="3F0ifn" id="4t5AFmF7Gej" role="3EZMnx">
         <property role="3F0ifm" value="radius:" />
@@ -190,7 +240,7 @@
   </node>
   <node concept="PKFIW" id="4t5AFmF7B1k">
     <property role="3GE5qa" value="shape" />
-    <property role="TrG5h" value="AbstractObj" />
+    <property role="TrG5h" value="AbstractObj_Comp" />
     <ref role="1XX52x" to="8k4:4t5AFmF65XS" resolve="AbstractObj" />
     <node concept="3EZMnI" id="4t5AFmF7B1O" role="2wV5jI">
       <node concept="3F0ifn" id="4t5AFmF7B1Q" role="3EZMnx">
@@ -379,6 +429,67 @@
               </node>
             </node>
           </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="24kQdi" id="4t5AFmFbeqV">
+    <property role="3GE5qa" value="shape" />
+    <ref role="1XX52x" to="8k4:4t5AFmFbepA" resolve="Rectangle" />
+    <node concept="3EZMnI" id="4t5AFmFbeBE" role="2wV5jI">
+      <node concept="l2Vlx" id="4t5AFmFbeBF" role="2iSdaV" />
+      <node concept="3F0ifn" id="4t5AFmFbeBG" role="3EZMnx">
+        <property role="3F0ifm" value="Rectangle" />
+      </node>
+      <node concept="PMmxH" id="4t5AFmFbeBH" role="3EZMnx">
+        <ref role="PMmxG" node="4t5AFmFbBT$" resolve="Shape_Comp" />
+      </node>
+      <node concept="3F0ifn" id="4t5AFmFbeBI" role="3EZMnx">
+        <property role="3F0ifm" value="(" />
+      </node>
+      <node concept="3F0A7n" id="4t5AFmFbeBJ" role="3EZMnx">
+        <ref role="1NtTu8" to="8k4:4t5AFmFbeqt" resolve="width" />
+      </node>
+      <node concept="3F0ifn" id="4t5AFmFbeC8" role="3EZMnx">
+        <property role="3F0ifm" value="," />
+      </node>
+      <node concept="3F0A7n" id="4t5AFmFbeCx" role="3EZMnx">
+        <ref role="1NtTu8" to="8k4:4t5AFmFbeqv" resolve="height" />
+      </node>
+      <node concept="3F0ifn" id="4t5AFmFbeCN" role="3EZMnx">
+        <property role="3F0ifm" value=")" />
+      </node>
+      <node concept="PMmxH" id="4t5AFmFbeBK" role="3EZMnx">
+        <ref role="PMmxG" node="4t5AFmF8HXO" resolve="OneColor" />
+      </node>
+    </node>
+  </node>
+  <node concept="PKFIW" id="4t5AFmFbBT$">
+    <property role="3GE5qa" value="shape" />
+    <property role="TrG5h" value="Shape_Comp" />
+    <ref role="1XX52x" to="8k4:4t5AFmF65XT" resolve="Shape" />
+    <node concept="3EZMnI" id="4t5AFmFbBTD" role="2wV5jI">
+      <node concept="3F0ifn" id="4t5AFmFbCYE" role="3EZMnx">
+        <property role="3F0ifm" value="fill?" />
+      </node>
+      <node concept="3F0A7n" id="4t5AFmFbBTP" role="3EZMnx">
+        <ref role="1NtTu8" to="8k4:4t5AFmF7cie" resolve="isFilled" />
+        <ref role="1k5W1q" node="4t5AFmFbK3$" resolve="BooleanStyle" />
+      </node>
+      <node concept="PMmxH" id="4t5AFmFbBTK" role="3EZMnx">
+        <ref role="PMmxG" node="4t5AFmF7B1k" resolve="AbstractObj_Comp" />
+      </node>
+      <node concept="l2Vlx" id="4t5AFmFbBTG" role="2iSdaV" />
+    </node>
+  </node>
+  <node concept="V5hpn" id="4t5AFmFbK2T">
+    <property role="TrG5h" value="ValueStyles" />
+    <node concept="14StLt" id="4t5AFmFbK3$" role="V601i">
+      <property role="TrG5h" value="BooleanStyle" />
+      <node concept="VechU" id="4t5AFmFbFGC" role="3F10Kt">
+        <property role="Vb096" value="darkGray" />
+        <node concept="1iSF2X" id="4t5AFmFbFGJ" role="VblUZ">
+          <property role="1iTho6" value="F49810" />
         </node>
       </node>
     </node>
