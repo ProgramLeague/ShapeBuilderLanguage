@@ -425,6 +425,73 @@
             </node>
           </node>
         </node>
+        <node concept="3clFbF" id="4t5AFmFbZKu" role="3cqZAp">
+          <node concept="1rXfSq" id="4t5AFmFbZKs" role="3clFbG">
+            <ref role="37wK5l" to="z60i:~Frame.setResizable(boolean):void" resolve="setResizable" />
+            <node concept="3clFbT" id="4t5AFmFc1_T" role="37wK5m">
+              <property role="3clFbU" value="false" />
+              <node concept="17Uvod" id="4t5AFmFc1D9" role="lGtFl">
+                <property role="P4ACc" value="f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123137/1068580123138" />
+                <property role="2qtEX9" value="value" />
+                <node concept="3zFVjK" id="4t5AFmFc1Dc" role="3zH0cK">
+                  <node concept="3clFbS" id="4t5AFmFc1Dd" role="2VODD2">
+                    <node concept="3clFbF" id="4t5AFmFc1Dj" role="3cqZAp">
+                      <node concept="2OqwBi" id="4t5AFmFc1De" role="3clFbG">
+                        <node concept="3TrcHB" id="4t5AFmFc1Dh" role="2OqNvi">
+                          <ref role="3TsBF5" to="8k4:4t5AFmFbK1s" resolve="resizable" />
+                        </node>
+                        <node concept="30H73N" id="4t5AFmFc1Di" role="2Oq$k0" />
+                      </node>
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbF" id="4t5AFmFcfxZ" role="3cqZAp">
+          <node concept="1rXfSq" id="4t5AFmFcfxX" role="3clFbG">
+            <ref role="37wK5l" to="z60i:~Window.setLocation(int,int):void" resolve="setLocation" />
+            <node concept="3cmrfG" id="4t5AFmFcgSo" role="37wK5m">
+              <property role="3cmrfH" value="1" />
+              <node concept="17Uvod" id="4t5AFmFciQw" role="lGtFl">
+                <property role="P4ACc" value="f3061a53-9226-4cc5-a443-f952ceaf5816/1068580320020/1068580320021" />
+                <property role="2qtEX9" value="value" />
+                <node concept="3zFVjK" id="4t5AFmFciQz" role="3zH0cK">
+                  <node concept="3clFbS" id="4t5AFmFciQ$" role="2VODD2">
+                    <node concept="3clFbF" id="4t5AFmFciQE" role="3cqZAp">
+                      <node concept="2OqwBi" id="4t5AFmFciQ_" role="3clFbG">
+                        <node concept="3TrcHB" id="4t5AFmFciQC" role="2OqNvi">
+                          <ref role="3TsBF5" to="8k4:4t5AFmF7ci9" resolve="x" />
+                        </node>
+                        <node concept="30H73N" id="4t5AFmFciQD" role="2Oq$k0" />
+                      </node>
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+            <node concept="3cmrfG" id="4t5AFmFchvi" role="37wK5m">
+              <property role="3cmrfH" value="1" />
+              <node concept="17Uvod" id="4t5AFmFcj1k" role="lGtFl">
+                <property role="P4ACc" value="f3061a53-9226-4cc5-a443-f952ceaf5816/1068580320020/1068580320021" />
+                <property role="2qtEX9" value="value" />
+                <node concept="3zFVjK" id="4t5AFmFcj1n" role="3zH0cK">
+                  <node concept="3clFbS" id="4t5AFmFcj1o" role="2VODD2">
+                    <node concept="3clFbF" id="4t5AFmFcj1u" role="3cqZAp">
+                      <node concept="2OqwBi" id="4t5AFmFcj1p" role="3clFbG">
+                        <node concept="3TrcHB" id="4t5AFmFcj1s" role="2OqNvi">
+                          <ref role="3TsBF5" to="8k4:4t5AFmF7cib" resolve="y" />
+                        </node>
+                        <node concept="30H73N" id="4t5AFmFcj1t" role="2Oq$k0" />
+                      </node>
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
         <node concept="3clFbF" id="4t5AFmF6Ixp" role="3cqZAp">
           <node concept="1rXfSq" id="4t5AFmF6Ixn" role="3clFbG">
             <ref role="37wK5l" to="z60i:~Container.add(java.awt.Component):java.awt.Component" resolve="add" />

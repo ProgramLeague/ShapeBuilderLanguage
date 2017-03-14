@@ -33,6 +33,11 @@
         <property id="5135681055137523357" name="width" index="3GqnKC" />
         <property id="5135681055137523359" name="height" index="3GqnKE" />
       </concept>
+      <concept id="5135681055137754654" name="ShapeLang.structure.IAbstractObj" flags="ng" index="3GtviF">
+        <property id="5135681055136466057" name="x" index="3GmlSX" />
+        <property id="5135681055136466059" name="y" index="3GmlSZ" />
+        <child id="5135681055136476929" name="color" index="3GmnmP" />
+      </concept>
     </language>
     <language id="ceab5195-25ea-4f22-9b92-103b95ca8c0c" name="jetbrains.mps.lang.core">
       <concept id="1169194658468" name="jetbrains.mps.lang.core.structure.INamedConcept" flags="ng" index="TrEIO">
@@ -42,22 +47,34 @@
   </registry>
   <node concept="3Gnsn2" id="4t5AFmF7yeK">
     <property role="TrG5h" value="DeepDark" />
-    <property role="3GnVgD" value="233" />
+    <property role="3GnVgD" value="400" />
     <property role="3GnVgF" value="400" />
+    <property role="3GmlSX" value="23" />
+    <property role="3GmlSZ" value="23" />
     <node concept="3GmlVu" id="4t5AFmF8SBL" role="3GmVTX">
       <property role="3GmlSW" value="10" />
       <property role="3GmlSY" value="160" />
       <property role="3GmP$T" value="12" />
+      <property role="3GmlSX" value="1" />
+      <property role="3GmlSZ" value="1" />
       <node concept="3Gnsne" id="4t5AFmF8SBM" role="3GmnmO">
         <ref role="3Gnsnb" to="g7no:4t5AFmF7ENF" resolve="RED" />
+      </node>
+      <node concept="3Gnsne" id="4t5AFmFcclI" role="3GmnmP">
+        <ref role="3Gnsnb" to="g7no:4t5AFmF85TP" resolve="BLUE" />
       </node>
     </node>
     <node concept="3GmlVu" id="4t5AFmFaeUe" role="3GmVTX">
       <property role="3GmlSW" value="23" />
       <property role="3GmlSY" value="224" />
       <property role="3GmP$T" value="23" />
+      <property role="3GmlSX" value="23" />
+      <property role="3GmlSZ" value="1" />
       <node concept="3Gnsne" id="4t5AFmFagTA" role="3GmnmO">
         <ref role="3Gnsnb" to="g7no:4t5AFmF85TP" resolve="BLUE" />
+      </node>
+      <node concept="3Gnsne" id="4t5AFmFcclK" role="3GmnmP">
+        <ref role="3Gnsnb" to="g7no:4t5AFmF85YH" resolve="CYAN" />
       </node>
     </node>
     <node concept="3GmlVu" id="4t5AFmFamX5" role="3GmVTX">
@@ -65,8 +82,13 @@
       <property role="3GmlSY" value="35" />
       <property role="3GmP$T" value="12" />
       <property role="3GmlSV" value="true" />
+      <property role="3GmlSX" value="1" />
+      <property role="3GmlSZ" value="23" />
       <node concept="3Gnsne" id="4t5AFmFamXd" role="3GmnmO">
         <ref role="3Gnsnb" to="g7no:4t5AFmFaeVD" resolve="PINK" />
+      </node>
+      <node concept="3Gnsne" id="4t5AFmFcclM" role="3GmnmP">
+        <ref role="3Gnsnb" to="g7no:4t5AFmF85X5" resolve="GREEN" />
       </node>
     </node>
     <node concept="3GqnNj" id="4t5AFmFbBOT" role="3GmVTX">
@@ -74,8 +96,13 @@
       <property role="3GmlSY" value="19" />
       <property role="3GqnKC" value="23" />
       <property role="3GqnKE" value="23" />
+      <property role="3GmlSX" value="100" />
+      <property role="3GmlSZ" value="23" />
       <node concept="3Gnsne" id="4t5AFmFbBP7" role="3GmnmO">
         <ref role="3Gnsnb" to="g7no:4t5AFmF85YH" resolve="CYAN" />
+      </node>
+      <node concept="3Gnsne" id="4t5AFmFcclO" role="3GmnmP">
+        <ref role="3Gnsnb" to="g7no:4t5AFmFaeVD" resolve="PINK" />
       </node>
     </node>
     <node concept="3GqnNj" id="4t5AFmFbVQc" role="3GmVTX">
@@ -84,8 +111,13 @@
       <property role="3GqnKC" value="23" />
       <property role="3GqnKE" value="23" />
       <property role="3GmlSV" value="true" />
+      <property role="3GmlSZ" value="100" />
+      <property role="3GmlSX" value="23" />
       <node concept="3Gnsne" id="4t5AFmFbVQN" role="3GmnmO">
         <ref role="3Gnsnb" to="g7no:4t5AFmF85Vt" resolve="YELLOW" />
+      </node>
+      <node concept="3Gnsne" id="4t5AFmFcclQ" role="3GmnmP">
+        <ref role="3Gnsnb" to="g7no:4t5AFmF7ENF" resolve="RED" />
       </node>
     </node>
   </node>
