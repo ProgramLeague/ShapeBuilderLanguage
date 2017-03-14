@@ -126,6 +126,7 @@
     <property role="EcuMT" value="5135681055136178043" />
     <property role="TrG5h" value="ColorReference" />
     <property role="3GE5qa" value="color" />
+    <property role="34LRSv" value="color" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="1TJgyj" id="4t5AFmF65XY" role="1TKVEi">
       <property role="IQ2ns" value="5135681055136178046" />
@@ -141,6 +142,11 @@
     <property role="TrG5h" value="Circle" />
     <property role="34LRSv" value="Circle" />
     <ref role="1TJDcQ" node="4t5AFmF65XT" resolve="Shape" />
+    <node concept="1TJgyi" id="4t5AFmF7Gec" role="1TKVEl">
+      <property role="IQ2nx" value="5135681055136596876" />
+      <property role="TrG5h" value="radius" />
+      <ref role="AX2Wp" to="tpck:fKAQMTA" resolve="integer" />
+    </node>
   </node>
 </model>
 
