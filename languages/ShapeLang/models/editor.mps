@@ -501,6 +501,17 @@
         </node>
       </node>
     </node>
+    <node concept="14StLt" id="4t5AFmFcFvQ" role="V601i">
+      <property role="TrG5h" value="StringStyle" />
+      <node concept="VechU" id="4t5AFmFcFw0" role="3F10Kt">
+        <node concept="1iSF2X" id="4t5AFmFcFw2" role="VblUZ">
+          <property role="1iTho6" value="008000" />
+        </node>
+      </node>
+      <node concept="Vb9p2" id="4t5AFmFcFw8" role="3F10Kt">
+        <property role="Vbekb" value="BOLD" />
+      </node>
+    </node>
   </node>
   <node concept="PKFIW" id="4t5AFmFc7Jj">
     <property role="3GE5qa" value="color" />
@@ -539,6 +550,29 @@
         <property role="3F0ifm" value=")" />
       </node>
       <node concept="l2Vlx" id="4t5AFmF7B1R" role="2iSdaV" />
+    </node>
+  </node>
+  <node concept="24kQdi" id="4t5AFmFcFdA">
+    <property role="3GE5qa" value="shape" />
+    <ref role="1XX52x" to="8k4:4t5AFmFcFda" resolve="Text" />
+    <node concept="3EZMnI" id="4t5AFmFcFdF" role="2wV5jI">
+      <node concept="3F0ifn" id="4t5AFmFcFdH" role="3EZMnx">
+        <property role="3F0ifm" value="Text:" />
+      </node>
+      <node concept="PMmxH" id="4t5AFmFcFvm" role="3EZMnx">
+        <ref role="PMmxG" node="4t5AFmF7B1k" resolve="AbstractObj_Comp" />
+      </node>
+      <node concept="3F0ifn" id="4t5AFmFcFvt" role="3EZMnx">
+        <property role="3F0ifm" value="content:" />
+      </node>
+      <node concept="3F0A7n" id="4t5AFmFcFvB" role="3EZMnx">
+        <ref role="1NtTu8" to="8k4:4t5AFmFcFdb" resolve="text" />
+        <ref role="1k5W1q" node="4t5AFmFcFvQ" resolve="StringStyle" />
+      </node>
+      <node concept="l2Vlx" id="4t5AFmFcFdI" role="2iSdaV" />
+      <node concept="PMmxH" id="4t5AFmFcHDM" role="3EZMnx">
+        <ref role="PMmxG" node="4t5AFmFc7Jj" resolve="OneColor" />
+      </node>
     </node>
   </node>
 </model>

@@ -21,11 +21,6 @@
       <concept id="5135681055136178041" name="ShapeLang.structure.Shape" flags="ng" index="3Gnsnc">
         <property id="5135681055136466062" name="isFilled" index="3GmlSV" />
       </concept>
-      <concept id="5135681055136178040" name="ShapeLang.structure.AbstractObj" flags="ng" index="3Gnsnd">
-        <property id="5135681055136466057" name="x" index="3GmlSW" />
-        <property id="5135681055136466059" name="y" index="3GmlSY" />
-        <child id="5135681055136476929" name="color" index="3GmnmO" />
-      </concept>
       <concept id="5135681055136178043" name="ShapeLang.structure.ColorReference" flags="ng" index="3Gnsne">
         <reference id="5135681055136178046" name="target" index="3Gnsnb" />
       </concept>
@@ -34,9 +29,12 @@
         <property id="5135681055137523359" name="height" index="3GqnKE" />
       </concept>
       <concept id="5135681055137754654" name="ShapeLang.structure.IAbstractObj" flags="ng" index="3GtviF">
-        <property id="5135681055136466057" name="x" index="3GmlSX" />
-        <property id="5135681055136466059" name="y" index="3GmlSZ" />
-        <child id="5135681055136476929" name="color" index="3GmnmP" />
+        <property id="5135681055136466057" name="x" index="3GmlSW" />
+        <property id="5135681055136466059" name="y" index="3GmlSY" />
+        <child id="5135681055136476929" name="color" index="3GmnmO" />
+      </concept>
+      <concept id="5135681055137903434" name="ShapeLang.structure.Text" flags="ng" index="3GtMBZ">
+        <property id="5135681055137903435" name="text" index="3GtMBY" />
       </concept>
     </language>
     <language id="ceab5195-25ea-4f22-9b92-103b95ca8c0c" name="jetbrains.mps.lang.core">
@@ -45,89 +43,49 @@
       </concept>
     </language>
   </registry>
-  <node concept="3Gnsn2" id="4t5AFmF7yeK">
-    <property role="TrG5h" value="DeepDark" />
-    <property role="3GnVgD" value="400" />
-    <property role="3GnVgF" value="400" />
-    <property role="3GmlSX" value="23" />
-    <property role="3GmlSZ" value="23" />
-    <node concept="3GmlVu" id="4t5AFmF8SBL" role="3GmVTX">
-      <property role="3GmlSY" value="160" />
-      <property role="3GmP$T" value="12" />
-      <property role="3GmlSX" value="1" />
-      <property role="3GmlSZ" value="1" />
-      <property role="3GmlSW" value="10" />
-      <node concept="3Gnsne" id="4t5AFmF8SBM" role="3GmnmO">
-        <ref role="3Gnsnb" to="g7no:4t5AFmF7ENF" resolve="RED" />
-      </node>
-      <node concept="3Gnsne" id="4t5AFmFcclI" role="3GmnmP">
-        <ref role="3Gnsnb" to="g7no:4t5AFmF85TP" resolve="BLUE" />
-      </node>
-    </node>
-    <node concept="3GmlVu" id="4t5AFmFaeUe" role="3GmVTX">
-      <property role="3GmlSW" value="23" />
-      <property role="3GmlSY" value="224" />
-      <property role="3GmP$T" value="23" />
-      <property role="3GmlSX" value="23" />
-      <property role="3GmlSZ" value="1" />
-      <node concept="3Gnsne" id="4t5AFmFagTA" role="3GmnmO">
-        <ref role="3Gnsnb" to="g7no:4t5AFmF85TP" resolve="BLUE" />
-      </node>
-      <node concept="3Gnsne" id="4t5AFmFcclK" role="3GmnmP">
-        <ref role="3Gnsnb" to="g7no:4t5AFmF85YH" resolve="CYAN" />
-      </node>
-    </node>
-    <node concept="3GmlVu" id="4t5AFmFamX5" role="3GmVTX">
-      <property role="3GmlSW" value="5" />
-      <property role="3GmlSY" value="35" />
-      <property role="3GmP$T" value="12" />
+  <node concept="3Gnsn2" id="4t5AFmFdeuL">
+    <property role="TrG5h" value="DeepDarkFantasy" />
+    <property role="3GnVgD" value="499" />
+    <property role="3GnVgF" value="499" />
+    <property role="3GmlSW" value="100" />
+    <property role="3GmlSY" value="100" />
+    <node concept="3GmlVu" id="4t5AFmFddMZ" role="3GmVTX">
       <property role="3GmlSV" value="true" />
-      <property role="3GmlSX" value="1" />
-      <property role="3GmlSZ" value="23" />
-      <node concept="3Gnsne" id="4t5AFmFamXd" role="3GmnmO">
-        <ref role="3Gnsnb" to="g7no:4t5AFmFaeVD" resolve="PINK" />
-      </node>
-      <node concept="3Gnsne" id="4t5AFmFcclM" role="3GmnmP">
+      <property role="3GmlSW" value="1" />
+      <property role="3GmlSY" value="23" />
+      <property role="3GmP$T" value="12" />
+      <node concept="3Gnsne" id="4t5AFmFddNm" role="3GmnmO">
         <ref role="3Gnsnb" to="g7no:4t5AFmF85X5" resolve="GREEN" />
       </node>
     </node>
-    <node concept="3GqnNj" id="4t5AFmFbBOT" role="3GmVTX">
-      <property role="3GmlSW" value="121" />
-      <property role="3GmlSY" value="19" />
+    <node concept="3GqnNj" id="4t5AFmFddyB" role="3GmVTX">
+      <property role="3GmlSW" value="100" />
+      <property role="3GmlSY" value="23" />
       <property role="3GqnKC" value="23" />
       <property role="3GqnKE" value="23" />
-      <property role="3GmlSX" value="100" />
-      <property role="3GmlSZ" value="23" />
-      <node concept="3Gnsne" id="4t5AFmFbBP7" role="3GmnmO">
-        <ref role="3Gnsnb" to="g7no:4t5AFmF85YH" resolve="CYAN" />
-      </node>
-      <node concept="3Gnsne" id="4t5AFmFcclO" role="3GmnmP">
-        <ref role="3Gnsnb" to="g7no:4t5AFmFaeVD" resolve="PINK" />
+      <node concept="3Gnsne" id="4t5AFmFddyZ" role="3GmnmO">
+        <ref role="3Gnsnb" to="g7no:4t5AFmF85TP" resolve="BLUE" />
       </node>
     </node>
-    <node concept="3GqnNj" id="4t5AFmFbVQc" role="3GmVTX">
-      <property role="3GmlSW" value="21" />
-      <property role="3GmlSY" value="119" />
+    <node concept="3GqnNj" id="4t5AFmFddx1" role="3GmVTX">
+      <property role="3GmlSW" value="23" />
+      <property role="3GmlSY" value="100" />
       <property role="3GqnKC" value="23" />
       <property role="3GqnKE" value="23" />
       <property role="3GmlSV" value="true" />
-      <property role="3GmlSZ" value="100" />
-      <property role="3GmlSX" value="23" />
-      <node concept="3Gnsne" id="4t5AFmFbVQN" role="3GmnmO">
+      <node concept="3Gnsne" id="4t5AFmFddxq" role="3GmnmO">
         <ref role="3Gnsnb" to="g7no:4t5AFmF85Vt" resolve="YELLOW" />
       </node>
-      <node concept="3Gnsne" id="4t5AFmFcclQ" role="3GmnmP">
+    </node>
+    <node concept="3GtMBZ" id="4t5AFmFcHty" role="3GmVTX">
+      <property role="3GmlSW" value="49" />
+      <property role="3GmlSY" value="98" />
+      <property role="3GtMBY" value="This is the deep dark fantasy" />
+      <node concept="3Gnsne" id="4t5AFmFddgi" role="3GmnmO">
         <ref role="3Gnsnb" to="g7no:4t5AFmF7ENF" resolve="RED" />
       </node>
     </node>
-  </node>
-  <node concept="3Gnsn2" id="4t5AFmFcvDJ">
-    <property role="TrG5h" value="DeepDarkFantasy" />
-    <property role="3GnVgD" value="400" />
-    <property role="3GnVgF" value="400" />
-    <property role="3GmlSX" value="100" />
-    <property role="3GmlSZ" value="100" />
-    <node concept="3Gnsne" id="4t5AFmFcvDK" role="3GmnmP" />
+    <node concept="3Gnsne" id="4t5AFmFdeuM" role="3GmnmO" />
   </node>
 </model>
 

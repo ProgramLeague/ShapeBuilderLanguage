@@ -190,5 +190,17 @@
       <ref role="PrY4T" node="4t5AFmFc6Su" resolve="IAbstractObj" />
     </node>
   </node>
+  <node concept="1TIwiD" id="4t5AFmFcFda">
+    <property role="EcuMT" value="5135681055137903434" />
+    <property role="3GE5qa" value="shape" />
+    <property role="TrG5h" value="Text" />
+    <property role="34LRSv" value="text" />
+    <ref role="1TJDcQ" node="4t5AFmFcvHo" resolve="AbstractObj" />
+    <node concept="1TJgyi" id="4t5AFmFcFdb" role="1TKVEl">
+      <property role="IQ2nx" value="5135681055137903435" />
+      <property role="TrG5h" value="text" />
+      <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
+    </node>
+  </node>
 </model>
 
