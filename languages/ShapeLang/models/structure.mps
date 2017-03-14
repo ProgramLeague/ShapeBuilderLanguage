@@ -86,7 +86,7 @@
       <property role="20lmBu" value="aggregation" />
       <property role="20kJfa" value="objs" />
       <property role="20lbJX" value="0..n" />
-      <ref role="20lvS9" node="4t5AFmFc6Su" resolve="IAbstractObj" />
+      <ref role="20lvS9" node="4t5AFmFcvHo" resolve="AbstractObj" />
     </node>
   </node>
   <node concept="1TIwiD" id="4t5AFmF65XT">
@@ -96,14 +96,11 @@
     <property role="R5$K2" value="false" />
     <property role="3GE5qa" value="shape" />
     <property role="R4oN_" value="shapes, which can be filled" />
-    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <ref role="1TJDcQ" node="4t5AFmFcvHo" resolve="AbstractObj" />
     <node concept="1TJgyi" id="4t5AFmF7cie" role="1TKVEl">
       <property role="IQ2nx" value="5135681055136466062" />
       <property role="TrG5h" value="isFilled" />
       <ref role="AX2Wp" to="tpck:fKAQMTB" resolve="boolean" />
-    </node>
-    <node concept="PrWs8" id="4t5AFmFc6UD" role="PzmwI">
-      <ref role="PrY4T" node="4t5AFmFc6Su" resolve="IAbstractObj" />
     </node>
   </node>
   <node concept="1TIwiD" id="4t5AFmF65XU">
@@ -180,6 +177,17 @@
       <property role="IQ2nx" value="5135681055136466059" />
       <property role="TrG5h" value="y" />
       <ref role="AX2Wp" to="tpck:fKAQMTA" resolve="integer" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="4t5AFmFcvHo">
+    <property role="EcuMT" value="5135681055137856344" />
+    <property role="3GE5qa" value="shape" />
+    <property role="TrG5h" value="AbstractObj" />
+    <property role="R5$K7" value="true" />
+    <property role="R5$K2" value="false" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="PrWs8" id="4t5AFmFcvHp" role="PzmwI">
+      <ref role="PrY4T" node="4t5AFmFc6Su" resolve="IAbstractObj" />
     </node>
   </node>
 </model>

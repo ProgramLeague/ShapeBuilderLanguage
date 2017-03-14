@@ -52,11 +52,11 @@
     <property role="3GmlSX" value="23" />
     <property role="3GmlSZ" value="23" />
     <node concept="3GmlVu" id="4t5AFmF8SBL" role="3GmVTX">
-      <property role="3GmlSW" value="10" />
       <property role="3GmlSY" value="160" />
       <property role="3GmP$T" value="12" />
       <property role="3GmlSX" value="1" />
       <property role="3GmlSZ" value="1" />
+      <property role="3GmlSW" value="10" />
       <node concept="3Gnsne" id="4t5AFmF8SBM" role="3GmnmO">
         <ref role="3Gnsnb" to="g7no:4t5AFmF7ENF" resolve="RED" />
       </node>
@@ -120,6 +120,14 @@
         <ref role="3Gnsnb" to="g7no:4t5AFmF7ENF" resolve="RED" />
       </node>
     </node>
+  </node>
+  <node concept="3Gnsn2" id="4t5AFmFcvDJ">
+    <property role="TrG5h" value="DeepDarkFantasy" />
+    <property role="3GnVgD" value="400" />
+    <property role="3GnVgF" value="400" />
+    <property role="3GmlSX" value="100" />
+    <property role="3GmlSZ" value="100" />
+    <node concept="3Gnsne" id="4t5AFmFcvDK" role="3GmnmP" />
   </node>
 </model>
 
