@@ -66,6 +66,9 @@
     <node concept="PrWs8" id="4t5AFmFc6UJ" role="PzmwI">
       <ref role="PrY4T" node="4t5AFmFc6Su" resolve="IAbstractObj" />
     </node>
+    <node concept="PrWs8" id="4t5AFmFdWqp" role="PzmwI">
+      <ref role="PrY4T" node="4t5AFmFdWoS" resolve="IAbstractRigid" />
+    </node>
     <node concept="1TJgyi" id="4t5AFmF6yUs" role="1TKVEl">
       <property role="IQ2nx" value="5135681055136296604" />
       <property role="TrG5h" value="width" />
@@ -146,20 +149,13 @@
     <property role="TrG5h" value="Rectangle" />
     <property role="34LRSv" value="rect" />
     <ref role="1TJDcQ" node="4t5AFmF65XT" resolve="Shape" />
-    <node concept="1TJgyi" id="4t5AFmFbeqt" role="1TKVEl">
-      <property role="IQ2nx" value="5135681055137523357" />
-      <property role="TrG5h" value="width" />
-      <ref role="AX2Wp" to="tpck:fKAQMTA" resolve="integer" />
-    </node>
-    <node concept="1TJgyi" id="4t5AFmFbeqv" role="1TKVEl">
-      <property role="IQ2nx" value="5135681055137523359" />
-      <property role="TrG5h" value="height" />
-      <ref role="AX2Wp" to="tpck:fKAQMTA" resolve="integer" />
+    <node concept="PrWs8" id="4t5AFmFdWoV" role="PzmwI">
+      <ref role="PrY4T" node="4t5AFmFdWoS" resolve="IAbstractRigid" />
     </node>
   </node>
   <node concept="PlHQZ" id="4t5AFmFc6Su">
     <property role="EcuMT" value="5135681055137754654" />
-    <property role="3GE5qa" value="shape" />
+    <property role="3GE5qa" value="interfaces" />
     <property role="TrG5h" value="IAbstractObj" />
     <node concept="1TJgyj" id="4t5AFmF7eW1" role="1TKVEi">
       <property role="IQ2ns" value="5135681055136476929" />
@@ -196,6 +192,29 @@
     <property role="TrG5h" value="Text" />
     <property role="34LRSv" value="text" />
     <ref role="1TJDcQ" node="4t5AFmFcvHo" resolve="AbstractObj" />
+    <node concept="PrWs8" id="4t5AFmFe7WD" role="PzmwI">
+      <ref role="PrY4T" node="4t5AFmFe7WB" resolve="IAbstractText" />
+    </node>
+  </node>
+  <node concept="PlHQZ" id="4t5AFmFdWoS">
+    <property role="EcuMT" value="5135681055138235960" />
+    <property role="TrG5h" value="IAbstractRigid" />
+    <property role="3GE5qa" value="interfaces" />
+    <node concept="1TJgyi" id="4t5AFmFbeqt" role="1TKVEl">
+      <property role="IQ2nx" value="5135681055137523357" />
+      <property role="TrG5h" value="width" />
+      <ref role="AX2Wp" to="tpck:fKAQMTA" resolve="integer" />
+    </node>
+    <node concept="1TJgyi" id="4t5AFmFbeqv" role="1TKVEl">
+      <property role="IQ2nx" value="5135681055137523359" />
+      <property role="TrG5h" value="height" />
+      <ref role="AX2Wp" to="tpck:fKAQMTA" resolve="integer" />
+    </node>
+  </node>
+  <node concept="PlHQZ" id="4t5AFmFe7WB">
+    <property role="EcuMT" value="5135681055138283303" />
+    <property role="3GE5qa" value="interfaces" />
+    <property role="TrG5h" value="IAbstractText" />
     <node concept="1TJgyi" id="4t5AFmFcFdb" role="1TKVEl">
       <property role="IQ2nx" value="5135681055137903435" />
       <property role="TrG5h" value="text" />

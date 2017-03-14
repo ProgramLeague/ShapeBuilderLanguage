@@ -157,6 +157,7 @@
       </node>
       <node concept="3F0A7n" id="4t5AFmF7ygE" role="3EZMnx">
         <ref role="1NtTu8" to="tpck:h0TrG11" resolve="name" />
+        <ref role="1k5W1q" node="4t5AFmFcFvQ" resolve="StringStyle" />
       </node>
       <node concept="3F0ifn" id="4t5AFmF7ygM" role="3EZMnx">
         <property role="3F0ifm" value="(" />
@@ -529,7 +530,7 @@
     </node>
   </node>
   <node concept="PKFIW" id="4t5AFmF7B1k">
-    <property role="3GE5qa" value="shape" />
+    <property role="3GE5qa" value="interfaces" />
     <property role="TrG5h" value="AbstractObj_Comp" />
     <ref role="1XX52x" to="8k4:4t5AFmFc6Su" resolve="IAbstractObj" />
     <node concept="3EZMnI" id="4t5AFmF7B1O" role="2wV5jI">
