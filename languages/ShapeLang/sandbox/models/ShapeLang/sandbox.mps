@@ -41,6 +41,9 @@
       <concept id="5135681055137903434" name="ShapeLang.structure.Text" flags="ng" index="3GtMBZ">
         <property id="5135681055137903435" name="text" index="3GtMBY" />
       </concept>
+      <concept id="5135681055138349602" name="ShapeLang.structure.Square" flags="ng" index="3Gv1yn">
+        <property id="5135681055138349603" name="size" index="3Gv1ym" />
+      </concept>
       <concept id="5135681055138283303" name="ShapeLang.structure.IAbstractText" flags="ng" index="3Gvumi">
         <property id="5135681055137903435" name="text" index="3GtMBZ" />
       </concept>
@@ -53,11 +56,13 @@
   </registry>
   <node concept="3Gnsn2" id="4t5AFmFdeuL">
     <property role="TrG5h" value="DeepDarkFantasy" />
-    <property role="3GnVgD" value="499" />
-    <property role="3GnVgF" value="499" />
+    <property role="3GnVgD" value="555" />
+    <property role="3GnVgF" value="666" />
     <property role="3GmlSW" value="100" />
     <property role="3GmlSY" value="100" />
     <property role="3GqDFD" value="true" />
+    <property role="3GqnKD" value="555" />
+    <property role="3GqnKF" value="555" />
     <node concept="3GmlVu" id="4t5AFmFddMZ" role="3GmVTX">
       <property role="3GmlSV" value="true" />
       <property role="3GmlSW" value="1" />
@@ -106,6 +111,35 @@
       <property role="3GtMBY" value="My name is Van" />
       <node concept="3Gnsne" id="4t5AFmFdQez" role="3GmnmO">
         <ref role="3Gnsnb" to="g7no:4t5AFmFaeVD" resolve="PINK" />
+      </node>
+    </node>
+    <node concept="3GtMBZ" id="4t5AFmFeaJO" role="3GmVTX">
+      <property role="3GmlSW" value="23" />
+      <property role="3GmlSY" value="23" />
+      <property role="3GtMBZ" value="MPS has a huge bug!" />
+      <node concept="3Gnsne" id="4t5AFmFeaK6" role="3GmnmO">
+        <ref role="3Gnsnb" to="g7no:4t5AFmF85YH" resolve="CYAN" />
+      </node>
+    </node>
+    <node concept="3Gv1yn" id="4t5AFmFevYc" role="3GmVTX">
+      <property role="3GqnKD" value="0" />
+      <property role="3GqnKF" value="0" />
+      <property role="3GmlSW" value="233" />
+      <property role="3GmlSY" value="233" />
+      <property role="3Gv1ym" value="44" />
+      <property role="3GmlSV" value="true" />
+      <node concept="3Gnsne" id="4t5AFmFevYz" role="3GmnmO">
+        <ref role="3Gnsnb" to="g7no:4t5AFmFdQKW" resolve="ORANGE" />
+      </node>
+    </node>
+    <node concept="3Gv1yn" id="4t5AFmFeIGD" role="3GmVTX">
+      <property role="3GqnKD" value="0" />
+      <property role="3GqnKF" value="0" />
+      <property role="3GmlSW" value="12" />
+      <property role="3GmlSY" value="22" />
+      <property role="3Gv1ym" value="12" />
+      <node concept="3Gnsne" id="4t5AFmFeIGZ" role="3GmnmO">
+        <ref role="3Gnsnb" to="g7no:4t5AFmFdQKV" resolve="GRAY" />
       </node>
     </node>
     <node concept="3Gnsne" id="4t5AFmFdeuM" role="3GmnmO" />

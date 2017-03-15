@@ -163,15 +163,15 @@
         <property role="3F0ifm" value="(" />
       </node>
       <node concept="3F0A7n" id="4t5AFmF7yhg" role="3EZMnx">
-        <ref role="1NtTu8" to="8k4:4t5AFmF6yUs" resolve="width" />
         <ref role="1k5W1q" node="4t5AFmFbOu7" resolve="IntegerStyle" />
+        <ref role="1NtTu8" to="8k4:4t5AFmFbeqt" resolve="width" />
       </node>
       <node concept="3F0ifn" id="4t5AFmF7yhs" role="3EZMnx">
         <property role="3F0ifm" value="," />
       </node>
       <node concept="3F0A7n" id="4t5AFmF7yhM" role="3EZMnx">
-        <ref role="1NtTu8" to="8k4:4t5AFmF6yUu" resolve="height" />
         <ref role="1k5W1q" node="4t5AFmFbOu7" resolve="IntegerStyle" />
+        <ref role="1NtTu8" to="8k4:4t5AFmFbeqv" resolve="height" />
       </node>
       <node concept="3F0ifn" id="4t5AFmF7yi2" role="3EZMnx">
         <property role="3F0ifm" value=")" />
@@ -436,7 +436,7 @@
     <node concept="3EZMnI" id="4t5AFmFbeBE" role="2wV5jI">
       <node concept="l2Vlx" id="4t5AFmFbeBF" role="2iSdaV" />
       <node concept="3F0ifn" id="4t5AFmFbeBG" role="3EZMnx">
-        <property role="3F0ifm" value="Rectangle" />
+        <property role="3F0ifm" value="Rectangle:" />
       </node>
       <node concept="PMmxH" id="4t5AFmFbeBH" role="3EZMnx">
         <ref role="PMmxG" node="4t5AFmFbBT$" resolve="Shape_Comp" />
@@ -575,6 +575,29 @@
       <node concept="PMmxH" id="4t5AFmFcHDM" role="3EZMnx">
         <ref role="PMmxG" node="4t5AFmFc7Jj" resolve="OneColor" />
       </node>
+    </node>
+  </node>
+  <node concept="24kQdi" id="4t5AFmFetoX">
+    <property role="3GE5qa" value="shape" />
+    <ref role="1XX52x" to="8k4:4t5AFmFeo8y" resolve="Square" />
+    <node concept="3EZMnI" id="4t5AFmFetoZ" role="2wV5jI">
+      <node concept="3F0ifn" id="4t5AFmFetp6" role="3EZMnx">
+        <property role="3F0ifm" value="Square:" />
+      </node>
+      <node concept="PMmxH" id="4t5AFmFetpc" role="3EZMnx">
+        <ref role="PMmxG" node="4t5AFmFbBT$" resolve="Shape_Comp" />
+      </node>
+      <node concept="3F0ifn" id="4t5AFmFetpj" role="3EZMnx">
+        <property role="3F0ifm" value="size:" />
+      </node>
+      <node concept="3F0A7n" id="4t5AFmFetpz" role="3EZMnx">
+        <ref role="1NtTu8" to="8k4:4t5AFmFeo8z" resolve="size" />
+        <ref role="1k5W1q" node="4t5AFmFbOu7" resolve="IntegerStyle" />
+      </node>
+      <node concept="PMmxH" id="4t5AFmFetpQ" role="3EZMnx">
+        <ref role="PMmxG" node="4t5AFmFc7Jj" resolve="OneColor" />
+      </node>
+      <node concept="l2Vlx" id="4t5AFmFetp2" role="2iSdaV" />
     </node>
   </node>
 </model>

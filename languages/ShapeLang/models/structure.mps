@@ -69,16 +69,6 @@
     <node concept="PrWs8" id="4t5AFmFdWqp" role="PzmwI">
       <ref role="PrY4T" node="4t5AFmFdWoS" resolve="IAbstractRigid" />
     </node>
-    <node concept="1TJgyi" id="4t5AFmF6yUs" role="1TKVEl">
-      <property role="IQ2nx" value="5135681055136296604" />
-      <property role="TrG5h" value="width" />
-      <ref role="AX2Wp" to="tpck:fKAQMTA" resolve="integer" />
-    </node>
-    <node concept="1TJgyi" id="4t5AFmF6yUu" role="1TKVEl">
-      <property role="IQ2nx" value="5135681055136296606" />
-      <property role="TrG5h" value="height" />
-      <ref role="AX2Wp" to="tpck:fKAQMTA" resolve="integer" />
-    </node>
     <node concept="1TJgyi" id="4t5AFmFbK1s" role="1TKVEl">
       <property role="IQ2nx" value="5135681055137661020" />
       <property role="TrG5h" value="resizable" />
@@ -219,6 +209,18 @@
       <property role="IQ2nx" value="5135681055137903435" />
       <property role="TrG5h" value="text" />
       <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="4t5AFmFeo8y">
+    <property role="EcuMT" value="5135681055138349602" />
+    <property role="3GE5qa" value="shape" />
+    <property role="TrG5h" value="Square" />
+    <property role="34LRSv" value="square" />
+    <ref role="1TJDcQ" node="4t5AFmF65XT" resolve="Shape" />
+    <node concept="1TJgyi" id="4t5AFmFeo8z" role="1TKVEl">
+      <property role="IQ2nx" value="5135681055138349603" />
+      <property role="TrG5h" value="size" />
+      <ref role="AX2Wp" to="tpck:fKAQMTA" resolve="integer" />
     </node>
   </node>
 </model>
