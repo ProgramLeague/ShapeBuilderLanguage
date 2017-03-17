@@ -3,13 +3,16 @@
   <persistence version="9" />
   <languages>
     <use id="46d12fec-5f5f-4bef-ad93-c91d3c95d63e" name="ShapeLang" version="0" />
-    <use id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage" version="4" />
+    <use id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage" version="5" />
   </languages>
   <imports>
     <import index="g7no" ref="r:17e79124-2fa1-4437-8437-1e7bdf04c0ac(ShapeLang.colors)" implicit="true" />
   </imports>
   <registry>
     <language id="46d12fec-5f5f-4bef-ad93-c91d3c95d63e" name="ShapeLang">
+      <concept id="3845902507316603684" name="ShapeLang.structure.IColored" flags="ng" index="0f8zg">
+        <child id="5135681055136476929" name="color" index="3GmnmO" />
+      </concept>
       <concept id="5135681055136466027" name="ShapeLang.structure.Circle" flags="ng" index="3GmlVu">
         <property id="5135681055136596876" name="radius" index="3GmP$T" />
       </concept>
@@ -23,17 +26,16 @@
         <reference id="5135681055136178046" name="target" index="3Gnsnb" />
       </concept>
       <concept id="5135681055137523302" name="ShapeLang.structure.Rectangle" flags="ng" index="3GqnNj" />
-      <concept id="5135681055138235960" name="ShapeLang.structure.IAbstractRigid" flags="ng" index="3Gs_Md">
+      <concept id="5135681055138235960" name="ShapeLang.structure.IRigid" flags="ng" index="3Gs_Md">
         <property id="5135681055137523357" name="width" index="3GqnKC" />
         <property id="5135681055137523359" name="height" index="3GqnKE" />
       </concept>
-      <concept id="5135681055137754654" name="ShapeLang.structure.IAbstractObj" flags="ng" index="3GtviF">
+      <concept id="5135681055137754654" name="ShapeLang.structure.IObject" flags="ng" index="3GtviF">
         <property id="5135681055136466057" name="x" index="3GmlSW" />
         <property id="5135681055136466059" name="y" index="3GmlSY" />
-        <child id="5135681055136476929" name="color" index="3GmnmO" />
       </concept>
       <concept id="5135681055137903434" name="ShapeLang.structure.Text" flags="ng" index="3GtMBZ" />
-      <concept id="5135681055138283303" name="ShapeLang.structure.IAbstractText" flags="ng" index="3Gvumi">
+      <concept id="5135681055138283303" name="ShapeLang.structure.IText" flags="ng" index="3Gvumi">
         <property id="5135681055137903435" name="text" index="3GtMBY" />
       </concept>
     </language>
@@ -43,47 +45,39 @@
       </concept>
     </language>
   </registry>
-  <node concept="3Gnsn2" id="4Oy92q$X_si">
-    <property role="TrG5h" value="MainCanvas" />
-    <property role="3GqnKC" value="300" />
-    <property role="3GqnKE" value="300" />
-    <property role="3GmlSW" value="50" />
-    <property role="3GmlSY" value="50" />
-    <node concept="3GqnNj" id="4Oy92q$X_sV" role="3GmVTX">
+  <node concept="3Gnsn2" id="3lvoZgPp_Bm">
+    <property role="TrG5h" value="Main" />
+    <property role="3GqnKC" value="500" />
+    <property role="3GqnKE" value="500" />
+    <property role="3GmlSW" value="100" />
+    <property role="3GmlSY" value="100" />
+    <node concept="3GmlVu" id="3lvoZgPp_Br" role="3GmVTX">
       <property role="3GmlSW" value="100" />
-      <property role="3GmlSY" value="100" />
-      <property role="3GqnKC" value="100" />
-      <property role="3GqnKE" value="100" />
-      <node concept="3Gnsne" id="4Oy92q$XBEE" role="3GmnmO">
-        <ref role="3Gnsnb" to="g7no:4t5AFmF85TP" resolve="BLUE" />
-      </node>
-    </node>
-    <node concept="3GtMBZ" id="4Oy92q$XBEN" role="3GmVTX">
-      <property role="3GmlSW" value="20" />
-      <property role="3GmlSY" value="20" />
-      <property role="3GtMBY" value="My name is Van" />
-      <node concept="3Gnsne" id="3wNokECcdrf" role="3GmnmO">
-        <ref role="3Gnsnb" to="g7no:4t5AFmFdQKT" resolve="BLACK" />
-      </node>
-    </node>
-    <node concept="3GtMBZ" id="3wNokECcdri" role="3GmVTX">
-      <property role="3GmlSW" value="20" />
-      <property role="3GmlSY" value="50" />
-      <property role="3GtMBY" value="I'm an artist" />
-      <node concept="3Gnsne" id="3wNokECcdrs" role="3GmnmO">
-        <ref role="3Gnsnb" to="g7no:4t5AFmFdQKV" resolve="GRAY" />
-      </node>
-    </node>
-    <node concept="3GmlVu" id="4Oy92q$XBFb" role="3GmVTX">
-      <property role="3GmlSV" value="true" />
-      <property role="3GmlSW" value="80" />
-      <property role="3GmlSY" value="60" />
+      <property role="3GmlSY" value="10" />
       <property role="3GmP$T" value="20" />
-      <node concept="3Gnsne" id="4Oy92q$XBFn" role="3GmnmO">
-        <ref role="3Gnsnb" to="g7no:4t5AFmF7ENF" resolve="RED" />
+      <property role="3GmlSV" value="true" />
+      <node concept="3Gnsne" id="3lvoZgPp_Bz" role="3GmnmO">
+        <ref role="3Gnsnb" to="g7no:4t5AFmF85YH" resolve="CYAN" />
       </node>
     </node>
-    <node concept="3Gnsne" id="4Oy92q$X_sj" role="3GmnmO" />
+    <node concept="3GqnNj" id="3lvoZgPp_BG" role="3GmVTX">
+      <property role="3GmlSV" value="true" />
+      <property role="3GmlSW" value="10" />
+      <property role="3GmlSY" value="100" />
+      <property role="3GqnKC" value="30" />
+      <property role="3GqnKE" value="49" />
+      <node concept="3Gnsne" id="3lvoZgPp_BW" role="3GmnmO">
+        <ref role="3Gnsnb" to="g7no:4t5AFmFaeVD" resolve="PINK" />
+      </node>
+    </node>
+    <node concept="3GtMBZ" id="3lvoZgPp_C7" role="3GmVTX">
+      <property role="3GmlSW" value="60" />
+      <property role="3GmlSY" value="60" />
+      <property role="3GtMBY" value="MyNameIsVan" />
+      <node concept="3Gnsne" id="3lvoZgPp_Cj" role="3GmnmO">
+        <ref role="3Gnsnb" to="g7no:4t5AFmFdQKW" resolve="ORANGE" />
+      </node>
+    </node>
   </node>
 </model>
 
