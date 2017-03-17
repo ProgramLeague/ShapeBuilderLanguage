@@ -20,8 +20,10 @@ Because the official MPS tutorial provides a sample, which is called Shape, is v
 
 Actually, this language is a thin extension of the one mentioned above. I added color highlighting and concept constrains.
 
+With more features, constrains, behaviors, and abstractions.
+
 You can learn MPS by viewing this project.
 
 # Build
 
-This language is built by MPS 3.4.4
+This language is built using MPS EAP 2017.1
