@@ -60,7 +60,7 @@
     <node concept="PrWs8" id="4t5AFmF6hmM" role="PzmwI">
       <ref role="PrY4T" to="tpck:h0TrEE$" resolve="INamedConcept" />
     </node>
-    <node concept="PrWs8" id="4t5AFmFae7b" role="PzmwI">
+    <node concept="PrWs8" id="3wNokECc22g" role="PzmwI">
       <ref role="PrY4T" to="4fqr:431DWIovi3l" resolve="IMainClass" />
     </node>
     <node concept="PrWs8" id="4t5AFmFc6UJ" role="PzmwI">

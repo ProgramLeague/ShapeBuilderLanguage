@@ -280,6 +280,7 @@
       </node>
     </node>
     <node concept="3lhOvk" id="4t5AFmF6gv3" role="3lj3bC">
+      <property role="36QftV" value="true" />
       <ref role="30HIoZ" to="8k4:4t5AFmF65XR" resolve="Canvas" />
       <ref role="3lhOvi" node="4t5AFmF6gv6" resolve="map_Canvas" />
     </node>
