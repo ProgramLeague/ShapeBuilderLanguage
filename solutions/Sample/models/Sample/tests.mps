@@ -45,8 +45,8 @@
   </registry>
   <node concept="3Gnsn2" id="4Oy92q$X_si">
     <property role="TrG5h" value="MainCanvas" />
-    <property role="3GqnKC" value="500" />
-    <property role="3GqnKE" value="500" />
+    <property role="3GqnKC" value="300" />
+    <property role="3GqnKE" value="300" />
     <property role="3GmlSW" value="50" />
     <property role="3GmlSY" value="50" />
     <node concept="3GqnNj" id="4Oy92q$X_sV" role="3GmVTX">
@@ -61,14 +61,22 @@
     <node concept="3GtMBZ" id="4Oy92q$XBEN" role="3GmVTX">
       <property role="3GmlSW" value="20" />
       <property role="3GmlSY" value="20" />
-      <property role="3GtMBY" value="MPS" />
-      <node concept="3Gnsne" id="4Oy92q$XBF0" role="3GmnmO">
-        <ref role="3Gnsnb" to="g7no:4t5AFmF85X5" resolve="GREEN" />
+      <property role="3GtMBY" value="My name is Van" />
+      <node concept="3Gnsne" id="3wNokECcdrf" role="3GmnmO">
+        <ref role="3Gnsnb" to="g7no:4t5AFmFdQKT" resolve="BLACK" />
+      </node>
+    </node>
+    <node concept="3GtMBZ" id="3wNokECcdri" role="3GmVTX">
+      <property role="3GmlSW" value="20" />
+      <property role="3GmlSY" value="50" />
+      <property role="3GtMBY" value="I'm an artist" />
+      <node concept="3Gnsne" id="3wNokECcdrs" role="3GmnmO">
+        <ref role="3Gnsnb" to="g7no:4t5AFmFdQKV" resolve="GRAY" />
       </node>
     </node>
     <node concept="3GmlVu" id="4Oy92q$XBFb" role="3GmVTX">
       <property role="3GmlSV" value="true" />
-      <property role="3GmlSW" value="60" />
+      <property role="3GmlSW" value="80" />
       <property role="3GmlSY" value="60" />
       <property role="3GmP$T" value="20" />
       <node concept="3Gnsne" id="4Oy92q$XBFn" role="3GmnmO">
