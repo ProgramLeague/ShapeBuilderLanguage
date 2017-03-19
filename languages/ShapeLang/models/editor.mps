@@ -518,7 +518,7 @@
   <node concept="PKFIW" id="4t5AFmFc7Jj">
     <property role="3GE5qa" value="color" />
     <property role="TrG5h" value="OneColor" />
-    <ref role="1XX52x" to="8k4:4t5AFmFcvHo" resolve="AbstractObj" />
+    <ref role="1XX52x" to="8k4:3lvoZgPoYG$" resolve="IColored" />
     <node concept="3EZMnI" id="4t5AFmFc7JK" role="2wV5jI">
       <node concept="3F0ifn" id="4t5AFmFc7JR" role="3EZMnx">
         <property role="3F0ifm" value="color:" />
@@ -532,7 +532,7 @@
   <node concept="PKFIW" id="4t5AFmF7B1k">
     <property role="3GE5qa" value="interfaces" />
     <property role="TrG5h" value="AbstractObj_Comp" />
-    <ref role="1XX52x" to="8k4:4t5AFmFc6Su" resolve="IAbstractObj" />
+    <ref role="1XX52x" to="8k4:4t5AFmFc6Su" resolve="IObject" />
     <node concept="3EZMnI" id="4t5AFmF7B1O" role="2wV5jI">
       <node concept="3F0ifn" id="4t5AFmF7B1Q" role="3EZMnx">
         <property role="3F0ifm" value="(" />
