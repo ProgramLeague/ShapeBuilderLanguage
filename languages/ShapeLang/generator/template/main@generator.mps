@@ -411,6 +411,20 @@
       <node concept="3cqZAl" id="4t5AFmF6lp9" role="3clF45" />
       <node concept="3Tm6S6" id="4t5AFmF6lpb" role="1B3o_S" />
       <node concept="3clFbS" id="4t5AFmF6lpc" role="3clF47">
+        <node concept="3clFbF" id="3jdXdrvbfQu" role="3cqZAp">
+          <node concept="2OqwBi" id="3jdXdrvbi0t" role="3clFbG">
+            <node concept="10M0yZ" id="3jdXdrvbi0u" role="2Oq$k0">
+              <ref role="1PxDUh" to="wyt6:~System" resolve="System" />
+              <ref role="3cqZAo" to="wyt6:~System.out" resolve="out" />
+            </node>
+            <node concept="liA8E" id="3jdXdrvbi0v" role="2OqNvi">
+              <ref role="37wK5l" to="guwi:~PrintStream.println(java.lang.String):void" resolve="println" />
+              <node concept="Xl_RD" id="3jdXdrvbjow" role="37wK5m">
+                <property role="Xl_RC" value="\n" />
+              </node>
+            </node>
+          </node>
+        </node>
         <node concept="3clFbF" id="4t5AFmF9xDx" role="3cqZAp">
           <node concept="1rXfSq" id="4t5AFmF9xDv" role="3clFbG">
             <ref role="37wK5l" to="z60i:~Frame.setTitle(java.lang.String):void" resolve="setTitle" />

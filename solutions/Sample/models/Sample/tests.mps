@@ -99,8 +99,24 @@
       <property role="3GmlSW" value="200" />
       <property role="3GmlSY" value="200" />
       <property role="3GmP$T" value="23" />
-      <node concept="3Gnsne" id="3jdXdrvaXZq" role="3GmnmO">
-        <ref role="3Gnsnb" to="g7no:4t5AFmF85YH" resolve="CYAN" />
+      <node concept="3Gnsne" id="3jdXdrvbaUd" role="3GmnmO">
+        <ref role="3Gnsnb" to="g7no:4t5AFmFdQKV" resolve="GRAY" />
+      </node>
+    </node>
+    <node concept="3GmlVu" id="3jdXdrvbaUA" role="3GmVTX">
+      <property role="3GmlSW" value="200" />
+      <property role="3GmlSY" value="200" />
+      <property role="3GmP$T" value="23" />
+      <node concept="3Gnsne" id="3jdXdrvbaUB" role="3GmnmO">
+        <ref role="3Gnsnb" to="g7no:4t5AFmFdQKV" resolve="GRAY" />
+      </node>
+    </node>
+    <node concept="3GtMBZ" id="3jdXdrvbbLm" role="3GmVTX">
+      <property role="3GmlSW" value="300" />
+      <property role="3GmlSY" value="300" />
+      <property role="3GtMBY" value="boy color: GRAY" />
+      <node concept="3Gnsne" id="3jdXdrvbbL$" role="3GmnmO">
+        <ref role="3Gnsnb" to="g7no:4t5AFmFdQKW" resolve="ORANGE" />
       </node>
     </node>
   </node>
