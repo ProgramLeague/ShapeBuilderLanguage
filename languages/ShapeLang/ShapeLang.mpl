@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<language namespace="ShapeLang" uuid="46d12fec-5f5f-4bef-ad93-c91d3c95d63e" languageVersion="0" moduleVersion="0">
+<language namespace="ShapeLang" uuid="46d12fec-5f5f-4bef-ad93-c91d3c95d63e" languageVersion="1" moduleVersion="1">
   <models>
     <modelRoot contentPath="${module}" type="default">
       <sourceRoot location="models" />
@@ -9,16 +9,15 @@
     <model modelUID="r:17e79124-2fa1-4437-8437-1e7bdf04c0ac(ShapeLang.colors)" />
   </accessoryModels>
   <generators>
-    <generator name="" generatorUID="ShapeLang#5135681055136178016" uuid="1dc9f16c-9135-412c-ba0e-28c13f641ffe">
+    <generator alias="" namespace="ShapeLang#5135681055136178016" uuid="1dc9f16c-9135-412c-ba0e-28c13f641ffe">
       <models>
         <modelRoot contentPath="${module}" type="default">
-          <sourceRoot path="${module}/generator/template" />
+          <sourceRoot location="generator/template" />
         </modelRoot>
       </models>
       <external-templates />
       <dependencies>
         <dependency reexport="false">6354ebe7-c22a-4a0f-ac54-50b52ab9b065(JDK)</dependency>
-        <dependency reexport="false">c72da2b9-7cce-4447-8389-f407dc1158b7(jetbrains.mps.lang.structure)</dependency>
         <dependency reexport="false">46d12fec-5f5f-4bef-ad93-c91d3c95d63e(ShapeLang)</dependency>
         <dependency reexport="false">f3061a53-9226-4cc5-a443-f952ceaf5816(jetbrains.mps.baseLanguage)</dependency>
       </dependencies>
